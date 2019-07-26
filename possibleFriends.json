@@ -1,0 +1,78 @@
+[
+    {
+      "id": 1,
+      "name": "Terry",
+      "image": "http://cdn3.whatculture.com/images/2018/10/738f4982c04c8037-600x338.jpg",
+      "clicked": false
+    },
+    {
+      "id": 2,
+      "name": "Scully",
+      "image": "https://pbs.twimg.com/media/BtUclldIMAAfvuw.jpg",
+      "clicked": false
+    },
+    {
+      "id": 3,
+      "name": "Peralta",
+      "image": "https://a1cf74336522e87f135f-2f21ace9a6cf0052456644b80fa06d4f.ssl.cf2.rackcdn.com/images/characters/p-Brooklyn-99-Andy-Sanberg.jpg",
+      "clicked": false
+    },
+    {
+      "id": 4,
+      "name": "Gina",
+      "image": "https://ewedit.files.wordpress.com/2018/10/gettyimages-630388150.jpg",
+      "clicked": false
+    },
+    {
+      "id": 5,
+      "name": "Holt",
+      "image": "https://cdn.vox-cdn.com/thumbor/ms05MoVlUz5zDcLL9VDvl0szCkk=/0x0:2850x2138/1200x800/filters:focal(0x0:2850x2138)/cdn.vox-cdn.com/uploads/chorus_image/image/47337922/B99_New_Captain_SC4_0036_hires1.0.0.jpg",
+      "clicked": false
+    },
+    {
+      "id": 6,
+      "name": "Rosa",
+      "image": "https://i.pinimg.com/originals/1d/3a/a4/1d3aa4d3699bc9fd2e902ea872168357.jpg",
+      "clicked": false
+    },
+    {
+      "id": 7,
+      "name": "Kevin",
+      "image": "https://vignette.wikia.nocookie.net/brooklynnine-nine/images/a/ab/Kevin.jpg/revision/latest?cb=20150522042556",
+      "clicked": false
+    },
+    {
+      "id": 8,
+      "name": "Amy",
+      "image": "https://66.media.tumblr.com/9011b5d748c0c2dfe8f50c2b9bcf8751/tumblr_pb5z1hHAiI1xvowbyo8_250.png",
+      "clicked": false
+
+    },
+    {
+      "id": 9,
+      "name": "Boyle",
+      "image": "https://compote.slate.com/images/aa75ab07-c2b0-490a-8660-69deb6238279.png?width=780&height=520&rect=432x288&offset=0x0",
+      "clicked": false
+    },
+    {
+      "id": 10,
+      "name": "Hitchcock",
+      "image": "https://i.pinimg.com/474x/e7/c6/47/e7c647583223f61d83bff09423940e10.jpg",
+      "clicked": false
+
+    },
+    {
+      "id": 11,
+      "name": "Pontiac Bandit",
+      "image": "https://vignette.wikia.nocookie.net/brooklynnine-nine/images/0/0a/Doug_Judy.png/revision/latest?cb=20150528033340",
+      "clicked": false
+
+    },
+    {
+      "id": 12,
+      "name": "Vulture",
+      "image": "https://vignette.wikia.nocookie.net/brooklynnine-nine/images/2/23/Vulture.jpg/revision/latest?cb=20150520224632",
+      "clicked": false
+
+    }
+  ]
