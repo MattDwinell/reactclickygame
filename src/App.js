@@ -16,6 +16,8 @@ class App extends Component {
   };
 
   clickCard = id => {
+    console.log(id);
+    console.log(this.props);
 //need to run some logic to determine if the id has been clicked or not, if false, then evaluate to true and run randomizer function. if true, game end/reset.
 
     // Filter this.state.friends for friends with an id not equal to the id being removed
@@ -31,7 +33,7 @@ class App extends Component {
       <Wrapper>
         <Title name= "Clicky Game" score={this.state.score} highScore = {this.state.highScore}>Clicky Game</Title>
         {shuffledFriends.map(friend =>(
-          <ClickCard key = {friend.id} id={friend.id} name = {friend.name} image = {friend.image}>
+          <ClickCard key = {friend.id} id={friend.id} name = {friend.name} image = {friend.image} onClick = {this.clickCard}>
 
           </ClickCard>
         ))}
