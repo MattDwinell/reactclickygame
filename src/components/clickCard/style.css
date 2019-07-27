@@ -1,0 +1,13 @@
+.card-img{
+float: left;
+width: 90%;
+height: 99%;
+border: 2px solid #7986cb;
+
+}
+.card{
+margin: .5% auto;
+width: 24%;
+height: 25vh;
+float:left;
+}

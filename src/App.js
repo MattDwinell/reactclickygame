@@ -1,26 +1,50 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from "react";
+import ClickCard from "./components/clickCard";
+import Wrapper from "./components/Wrapper";
+import Title from "./components/title";
+import possiblefriends from "./possibleFriends.json";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends Component {
+  // Setting this.state.friends to the friends json array
+  state = {
+    clicked:[false, false, false, false, false, false, false, false, false, false, false, false],
+    score:0,
+    highScore: 0
+  };
+
+  clickCard = id => {
+//need to run some logic to determine if the id has been clicked or not, if false, then evaluate to true and run randomizer function. if true, game end/reset.
+
+    // Filter this.state.friends for friends with an id not equal to the id being removed
+    // const friends = this.state.friends.filter(friend => friend.id !== id);
+    // // Set this.state.friends equal to the new friends array
+    // this.setState({ friends });
+  };
+
+
+  render() {
+    return (
+      <Wrapper>
+        <Title name= "Clicky Game" score={this.state.score} highScore = {this.state.highScore}>Clicky Game</Title>
+        {possiblefriends.map(friend=>(
+          <ClickCard id={friend.id} name = {friend.name} image = {friend.image}>
+
+          </ClickCard>
+        ))}
+        {/* {this.state.friends.map(friend => (
+          <FriendCard
+            removeFriend={this.removeFriend}
+            id={friend.id}
+            key={friend.id}
+            name={friend.name}
+            image={friend.image}
+            occupation={friend.occupation}
+            location={friend.location}
+          />
+        ))} */}
+      </Wrapper>
+    );
+  }
 }
 
 export default App;
