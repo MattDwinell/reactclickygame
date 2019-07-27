@@ -2,7 +2,10 @@ import React, { Component } from "react";
 import ClickCard from "./components/clickCard";
 import Wrapper from "./components/Wrapper";
 import Title from "./components/title";
-import possiblefriends from "./possibleFriends.json";
+import possibleFriends from "./possibleFriends.json";
+import shuffle from "./friendSorter";
+
+
 
 class App extends Component {
   // Setting this.state.friends to the friends json array
@@ -20,14 +23,15 @@ class App extends Component {
     // // Set this.state.friends equal to the new friends array
     // this.setState({ friends });
   };
-
+ 
 
   render() {
+    let shuffledFriends = shuffle(possibleFriends);
     return (
       <Wrapper>
         <Title name= "Clicky Game" score={this.state.score} highScore = {this.state.highScore}>Clicky Game</Title>
-        {possiblefriends.map(friend=>(
-          <ClickCard id={friend.id} name = {friend.name} image = {friend.image}>
+        {shuffledFriends.map(friend =>(
+          <ClickCard key = {friend.id} id={friend.id} name = {friend.name} image = {friend.image}>
 
           </ClickCard>
         ))}

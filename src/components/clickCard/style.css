@@ -11,3 +11,6 @@ width: 24%;
 height: 25vh;
 float:left;
 }
+.card-img:hover{
+    cursor: pointer;
+}
