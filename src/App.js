@@ -11,7 +11,6 @@ class App extends Component {
   // Setting this.state.friends to the friends json array
   state = {
     unchosenFriends: possibleFriends,
-    clicked:[false, false, false, false, false, false, false, false, false, false, false, false],
     score:0,
     highScore: 0
   };
@@ -44,24 +43,7 @@ class App extends Component {
     })
 
   }
-    // if (origFriendLength === newFriendLength){
-    //   console.log('user has lost');
-    // } else {
-    //   this.setState({score: (this.state.score + 1)});
-    //   if (this.state.score > this.state.highScore){
-    //     this.setState({
-    //       highScore: this.state.score
-    //     })
-      
-    //   //need to reshuffle cards here/ call reshuffle function
-    // }  
-    // }
-//need to run some logic to determine if the id has been clicked or not, if false, then evaluate to true and run randomizer function. if true, game end/reset.
 
-    // Filter this.state.friends for friends with an id not equal to the id being removed
-    // const friends = this.state.friends.filter(friend => friend.id !== id);
-    // // Set this.state.friends equal to the new friends array
-    // this.setState({ friends });
   };
  
 
