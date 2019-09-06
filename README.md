@@ -1,3 +1,11 @@
+Welcome to clicky game! A react.js based memory app that records how many unique pictures you can click on and keeps track of your highscore. 
+Playing is as simple as clicking on a character!
+![click_game_start](/public/images/clickgame_start.png)
+When you lose, the game restarts. Try to beat your old highscore!
+![click_game_end](/public/images/clickgame_end.png)
+this application was created by Matthew Dwinell. any questions of comments should be directed towards him.
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
